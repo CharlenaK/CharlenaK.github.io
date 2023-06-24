@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-标题: Charles' Blog
+title: Charles' Blog
 subtitle: ''
-描述: ''
+description: ''
 keywords:
-作者: Charles
-编程语言: en
+author: Charles
+language: en
 timezone: ''
 
 # URL
@@ -21,10 +21,10 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: 来源
-public_dir: 公共
-tag_dir: 标签
-archive_dir: 档案
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -35,7 +35,7 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-  启用: true # Open external links in new tab
+  enable: true # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
@@ -44,14 +44,14 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  启用: true
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  启用: false
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -92,7 +92,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
-忽略:
+ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -102,4 +102,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  类型: ''
+  type: ''
